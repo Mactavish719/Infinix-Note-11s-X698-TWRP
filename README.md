@@ -18,7 +18,6 @@ fastboot flashing unlock
 fastboot reboot
 4. Your phone will reboot and you need to set up again
 MAKE SURE YOU UNLOCKED BOOTLODER
-NOTES: Please reade README.txt on the archive
 1. Download and extract required files
 2. Connect your phone into fastboot mode
 3. Run "cmd-here.exe" from before on your PC.
@@ -29,3 +28,8 @@ fastboot flash boot {name of image}.img
 6. MUST disable vbmeta boot verification
 fastboot flash --disable-verity --disable-verification vbmeta vbmeta.img
 7. Unplug and verify, do reboot to recovery with power + vol up combination.
+
+2nd Method
+Download the TWRP installer and flash it using magisk manager if you are already rooted with stock boot image
+OR
+You can also update your TWRP if you are using any old version of TWRP and wants to upgrade to latest one
